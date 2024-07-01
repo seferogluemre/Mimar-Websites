@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Özdemir İç Mimarlık</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbars -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Ana Sayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mission">Misyonumuz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meİnfo">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mission -->
+    <div class="container" id="mission">
+      <div class="row mt-5">
+        <div class="col-12 col-md-6">
+          <img
+            src="İmages/photo1.webp"
+            class="img-fluid"
+            width="100%"
+            height="50%"
+          />
+          <h2 class="text-center">Örnek 1</h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="İmages/photo2.webp" class="img-fluid" width="100%" />
+          <h2 class="text-center">Örnek 2</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6">
+          <img
+            src="İmages/photo3.webp"
+            class="img-fluid"
+            width="100%"
+            height="50%"
+          />
+          <h2 class="text-center">Örnek 3</h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="İmages/photo4.webp" class="img-fluid" width="100%" />
+          <h2 class="text-center">Örnek 4</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6">
+          <img src="İmages/photo5.webp" class="img-flui" width="100%" />
+          <h2 class="text-center">Örnek 5</h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="İmages/photo6.webp" class="img-fluid" width="100%" />
+          <h2 class="text-center">Örnek 6</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Study Together İnfo -->
+    <section id="contact" class="birlikteÇalışalım">
+      <p
+        style="
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          font-style: italic;
+        "
+      >
+        Ana Unsurumuz Mekanın Genel Kullanıcılarının yerine geçebilmek için ve
+        bu kullanıcıların gözünden istedikleri kurguyu kendi tasarım dilimiz ile
+        harmanlayarak mekan içerisinde yeni ritimler ve formlar yakalamaktadır
+      </p>
+      <h2 style="font-style: italic; color: rgba(90, 99, 156, 0.8)">
+        Haydi Birlikte Çalışalım
+      </h2>
+      <hr style="border: 2px solid rgba(255, 211, 182, 0.8)" />
+      <p class="h6 py-2">info@emreSeferoglu.com</p>
+      <p class="h6 py-2">0551 555 55 53</p>
+    </section>
+
+    <!-- Contact -->
+    <div
+      id="form-contact"
+      class="container-fluid bg-body-secondary forms-container"
+    >
+      <form>
+        <div class="d-flex justify-content-center">
+          <div class="form-group col-lg-6">
+            <label>İsim:</label>
+            <input type="text" class="form-control" />
+            <label>Soyisim:</label>
+            <input type="text" class="form-control" />
+            <label for="email">E-Posta:</label>
+            <input type="email" id="email" class="form-control" />
+            <label>Mesajınız:</label>
+            <textarea rows="4" class="form-control"></textarea>
+            <button type="button" class="btn btn-success form-control">
+              Gönder
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <footer class="bg-dark text-white py-4" id="meİnfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>Hakkımızda:</h5>
+            <h5>SEFEROGLU YAZILIM TECHNOLOGY</h5>
+            <p>
+              Ana Unsurumuz Mekanın Genel Kullanıcılarının yerine geçebilmek
+              için ve bu kullanıcıların gözünden istedikleri kurguyu kendi
+              tasarım dilimiz ile harmanlayarak mekan içerisinde yeni ritimler
+              ve formlar yakalamaktadır
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>İletişim</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white"
+                  >Merkez Mah 199.sk No:12 İstanbul/Ümraniye</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white">Telefon: (551) 555 55 53</a>
+              </li>
+              <li>
+                <a href="mailto:info@example.com" class="text-white"
+                  >E-posta: info@emreSeferoglu.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Bağlantılar</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Ana Sayfa</a></li>
+              <li><a href="#" class="text-white">Hizmetlerimiz</a></li>
+              <li><a href="#" class="text-white">Blog</a></li>
+              <li><a href="#form-contact" class="text-white">İletişim</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
